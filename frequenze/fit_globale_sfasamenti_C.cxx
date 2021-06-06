@@ -49,7 +49,6 @@ void fit_globale_sfasamenti_C()
         f_err_plot(i)=f[i]*10e-06;
     }
 
-    //////////////////////mattia:qui hai creato tutti i vettori da riempire con i dati
 
  TCanvas* c_fit = new TCanvas("c_fit", "c_fit", 200, 100, 1000, 600);
     c_fit->SetGrid();
