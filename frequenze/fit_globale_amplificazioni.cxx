@@ -164,7 +164,7 @@ void fit_globale_amplificazioni()
   
   
   c->SaveAs("fit_globale_amplificazioni_C.png");
-/*
+
   TCanvas* c_prof = new TCanvas("c_prof", "c_prof", 1000, 450, 1300, 650);
   c_prof->cd();
   c_prof->SetGrid();
@@ -187,7 +187,7 @@ void fit_globale_amplificazioni()
   chi_profiling->GetYaxis()->SetMaxDigits(3);
   chi_profiling->Draw("COLZ2");
   c_prof->SaveAs("profiling_fit_globale_TC.png"); //Miniimo_Chi_Quadro_A
-  */
+
 }
 
 vector<double> txt_to_vector(string file_name)
