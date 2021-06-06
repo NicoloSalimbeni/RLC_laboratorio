@@ -469,14 +469,6 @@ void analisi()
   output << "------------PULSAZIONE omega_0-------------------\n";
   output << "omega_0= " << pulsazione << "+-" << err_puls << endl;
   output << "-------------------------------------------------\n";
-
-  //////////SCRIVERE L E ALTRE COSE
-  //
-  //ostream output("NOME FILE OUTPUT");
-  //output << "il coefficiente angolare è:  " << m << "+-" << fit->GetParameterError(0) <<endl;
-  //output << "Il test del chi^2 è: " << fit->GetChisquare() << " con " << fit->GetNDF() << " gradi di libertà" << endl;
-  //output << "l'intercetta è: " << q << "+-" << fit->GetParameterError(1) << endl;
-  //output << "il delta è: " << delta << "+-" << delta err << endl;
 }
 
 double Puls(double w_d, double d)
